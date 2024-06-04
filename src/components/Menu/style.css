@@ -1,0 +1,34 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  background-color: #FFF;
+  align-items: center;
+  color: rgba(252, 252, 70, 0.774);
+  padding: 0 12px;
+}
+
+.menu button {
+  border: none;
+  background-color: transparent;
+  color: red;
+  cursor: pointer;
+}
+
+.menu_lateral {
+  height: 100vh;
+  width: 200px;
+  padding: 0 12px;
+  background-color: #FFF;
+  color: red;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.menu_lateral .fechar {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 12px;
+  cursor: pointer;
+}
